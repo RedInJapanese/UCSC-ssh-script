@@ -24,18 +24,18 @@ void usage(char *exec) {
 int main(int argc, char **argv) {
     int opt = 0; 
     char *cruzID = "sammy";
-    //char buf[100];
+    char buf[100];
     FILE *art = NULL;
     while ((opt = getopt(argc, argv, OPTIONS)) != -1) {
         switch (opt) {
-        case 'u': cruzID = optarg; break;
+        case 'u': cruzID= optarg; puts("ID taken"); break;
         default: usage(argv[0]); exit(0); break; 
         } //switch statement of all the command line options
     }
-    printf("id: %s", cruzID);
+    //printf("id: %s", cruzID);
     printArt("slugart.txt", art);
-    //sprintf(buf, "ssh %sabasu2@unix.ucsc.edu", cruzID);
-    //system(buf);
+    sprintf(buf, "ssh %s@unix.ucsc.edu", cruzID);
+    system(buf);
     return 0;
 }
 void printArt(char *text, FILE *infile) {
