@@ -9,7 +9,12 @@
 
   Run the following in order to login to your timeshare server
   ```
-  ./login -u <your cruz id here>
+  ./login -u <your cruz id here(only your cruz id, no @ afterwards)>
+  ```
+  
+  Exmaple
+  ```
+  ./login -u abasu2
   ```
 
 
