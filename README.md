@@ -17,5 +17,5 @@
   ./login -u abasu2
   ```
 ![](https://www.pinterest.com/pin/353251164500025450/)
-![hyperfine](https://i.imgur.com/z19OYxE.gif)
 [Imgur](https://imgur.com/JdAb0Bm)
+[Imgur](https://i.imgur.com/WrYaoPj.png)
