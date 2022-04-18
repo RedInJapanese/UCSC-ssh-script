@@ -18,4 +18,4 @@
   ```
 ![](https://www.pinterest.com/pin/353251164500025450/)
 ![hyperfine](https://i.imgur.com/z19OYxE.gif)
-[Imgur](https://i.imgur.com/JdAb0Bm.mp4)
+[Imgur](https://imgur.com/JdAb0Bm)
