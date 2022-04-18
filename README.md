@@ -12,7 +12,7 @@
   ./login -u <your cruz id here(only your cruz id, no @ afterwards)>
   ```
   
-  Exmaple
+##  Exmaple
   ```
   ./login -u abasu2
   ```
