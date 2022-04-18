@@ -16,5 +16,5 @@
   ```
   ./login -u abasu2
   ```
-[](https://www.pinterest.com/pin/353251164500025450/)
+![mudkip](https://www.pinterest.com/pin/353251164500025450/)
 
