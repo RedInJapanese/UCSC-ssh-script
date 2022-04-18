@@ -1,7 +1,7 @@
 # UCSC ssh script
   A C script that automates ssh login into the UCSC timeshare.
 
-# Running
+## Running
   Run the following in order to see the help message from the login binary
   ```
   ./login -h
@@ -12,7 +12,7 @@
   ./login -u <your cruz id here(only your cruz id, no @ afterwards)>
   ```
   
-##  Example
+###  Example
   ```
   ./login -u abasu2
   ```
