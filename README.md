@@ -17,4 +17,4 @@
   ./login -u abasu2
   ```
 
-[Imgur](https://i.imgur.com/ld1zr1I.gifv)
+![Imgur](https://i.imgur.com/ld1zr1I.gifv)
