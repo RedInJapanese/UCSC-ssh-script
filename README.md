@@ -9,7 +9,7 @@
   - Mac: `./mac_login -h`
   - Linux: `./lin_login -h`
 
-  Run the following in order to login to your timeshare server
+  Run the following in order to login to your timeshare server:
   ```
   ./(insert os name here)_login -u <your cruz id here(only your cruz id, no @ afterwards)>
   ```
