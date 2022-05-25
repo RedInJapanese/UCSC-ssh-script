@@ -15,7 +15,7 @@
   ```
   
   ### Note
-  If you are interested in making the executable yourself, go into the directory called 'src' and run `make`.
+  If you are interested in making the executable yourself, go into the directory called 'src' and run `make`. The compiler used can be changed in the flags of the makefile itself. 
   
   ### Note
   If you wish to compile the binary without the ascii art, go into the directory called 'src', comment out the function call(`printArt("slugart.txt", art);`), and   run
