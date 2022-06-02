@@ -20,7 +20,10 @@
   ### Note
   If you wish to compile the binary without the ascii art, go into the directory called 'src', comment out the function call(`printArt("slugart.txt", art);`), and   run
   `make` afterwards. This will allow you to move the binary into different directories without the ascii art text file.  
-![Imgur](https://i.imgur.com/0x3cmC9.gif)
+## Using the -t command
+```
+./(insert o name here)_login -u <your cruz id here(only your cruz id, no @ afterwards)> -t <valid ascii art text file>
+```
 ![Imgur](https://imgur.com/0oM6xdo.gif)
 ## Example
   ```
