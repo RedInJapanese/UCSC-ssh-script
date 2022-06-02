@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-#define OPTIONS "u:"
+#define OPTIONS "u:t:"
 #define MAX 100000
 
 void printArt(char *text, FILE *infile);
@@ -17,6 +17,7 @@ void usage(char *exec) {
         "   %s [OPTIONS]\n"
         "\n"
         "OPTIONS\n"
+        "   -t         specifies which text file will be used to print ascii art.\n"
         "   -u         ssh login into UCSC timeshare.\n",
         exec);
 }
@@ -24,16 +25,18 @@ void usage(char *exec) {
 int main(int argc, char **argv) {
     int opt = 0; 
     char *cruzID = "sammy";
+    char *asc = "slugart.txt";
     char buf[100];
     FILE *art = NULL;
     while ((opt = getopt(argc, argv, OPTIONS)) != -1) {
         switch (opt) {
         case 'u': cruzID= optarg; puts("ID taken"); break;
+        case 't': asc= optarg; puts("File taken"); break;
         default: usage(argv[0]); exit(0); break; 
         } //switch statement of all the command line options
     }
     //printf("id: %s", cruzID);
-    printArt("slugart.txt", art);
+    printArt(asc, art);
     sprintf(buf, "ssh %s@unix.ucsc.edu", cruzID);
     system(buf);
     return 0;
