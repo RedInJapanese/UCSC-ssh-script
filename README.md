@@ -25,6 +25,7 @@
 ./(insert o name here)_login -u <your cruz id here(only your cruz id, no @ afterwards)> -t <valid ascii art text file>
 ```
 ![Imgur](https://imgur.com/0oM6xdo.gif)
+![Imgur](https://imgur.com/eDhuFj7.gif)
 ## Example
   ```
   ./win_login -u abasu2
